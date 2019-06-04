@@ -84,8 +84,12 @@ if __name__ == '__main__':
 
     cherrypy.engine.subscribe('start', setup_database)
     cherrypy.engine.subscribe('stop', cleanup_database)
-
+    
     webapp = StringGenerator()
     webapp.generator = StringGeneratorWebService()
     cherrypy.quickstart(webapp, '/', conf)
+
+    println('*****pythona*****')
+
     print('************ttttttt**********')
+
