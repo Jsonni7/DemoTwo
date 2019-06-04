@@ -88,3 +88,4 @@ if __name__ == '__main__':
     webapp = StringGenerator()
     webapp.generator = StringGeneratorWebService()
     cherrypy.quickstart(webapp, '/', conf)
+    print('************ttttttt**********')
