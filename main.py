@@ -12,3 +12,4 @@ if not sta_if.isconnected():
     pass
 print('network config:', sta_if.ifconfig())
 print('***************')
+print('****** from  localhost *********')
